@@ -7,7 +7,7 @@ const id = url.searchParams.get("id");
 // On récupère la data JSON
 let json_data;
 function fetchMedia() {
-    fetch(".././JSON/FishEyeData.json")
+    fetch("./JSON/FishEyeData.json")
         .then((response) => response.json())
         .then((data) => (json_data = data))
         .then((data) => {
