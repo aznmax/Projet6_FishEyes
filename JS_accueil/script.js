@@ -16,7 +16,7 @@ function fetchData() {
                   <a href="./Photographe/page_photographe.html?id=${user.id}">
                       <div  class="nomphotographe">
                           <img  src="./SamplePhotos/PhotographersPhotos/${user.portrait} "
-                          alt=${user.name}">
+                          alt= "Voici le portrait de ${user.name}">
                           <h2>${user.name}</h2>
                       </div>
                   </a>

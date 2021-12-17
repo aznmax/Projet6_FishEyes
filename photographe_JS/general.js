@@ -81,7 +81,7 @@ function fetchMedia() {
        <div class="clichephotographe">
         <div class="artiste">
           <img tabindex="0" src="../SamplePhotos/PhotographersPhotos/${artiste.portrait}"
-            alt="${artiste.name}"
+            alt="Voici le portrait de ${artiste.name}"
           />
         </div>
       </div>

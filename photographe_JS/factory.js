@@ -32,6 +32,7 @@ function factory(medias, artiste) {
 
         if (media.hasOwnProperty("image")) {
             image.src = "../SamplePhotos/" + artiste_prenom + "/" + media.image + " ";
+            image.title= `${media.title}` + ` ${media.date}`+ ` ${media.price}€`;
             image.classList.add("js_modal_lightbox");
             flexdescription.appendChild(image);
             image.dataset.id = media.id;
