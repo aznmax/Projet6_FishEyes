@@ -1,5 +1,5 @@
 function fetchData() {
-    fetch("../JSON/FishEyeData.json")
+    fetch(".././JSON/FishEyeData.json")
         .then((response) => {
             return response.json();
         })
