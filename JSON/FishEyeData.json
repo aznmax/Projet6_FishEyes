@@ -18,7 +18,9 @@
       "tags": ["sports", "architecture"],
       "tagline": "Capturer des compositions complexes",
       "price": 250,
-      "portrait": "EllieRoseWilkens.jpg"
+      "portrait": "EllieRoseWilkens.jpg",
+      "alt" : "Voici le photographe EllieRoseWilkens",
+      "linkname": "Ellie-Rose "
     },
     {
       "name": "Tracy Galindo",

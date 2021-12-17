@@ -1,5 +1,5 @@
 function fetchData() {
-    fetch(".././JSON/FishEyeData.json")
+    fetch("..Projet6_FishEyes/tree/main/JSON/FishEyeData.json")
         .then((response) => {
             return response.json();
         })
@@ -14,10 +14,10 @@ function fetchData() {
                 return `
               <div class="profilphotographe">
                   <a href="./Photographe/page_photographe.html?id=${user.id}">
-                      <div tabindex="0" class="nomphotographe">
-                          <img  src="./SamplePhotos/PhotographersPhotos/${user.portrait}"
-                          alt="Voici le photographe ${user.name}">
-                          <h2 >${user.name}</h2>
+                      <div  class="nomphotographe">
+                          <img  src="./SamplePhotos/PhotographersPhotos/${user.portrait} "
+                          alt=${user.name}">
+                          <h2>${user.name}</h2>
                       </div>
                   </a>
                   
