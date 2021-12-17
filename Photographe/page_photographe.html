@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link rel="stylesheet" href="../scss_pagePhotographe/style2.css" />
+        <script src="https://kit.fontawesome.com/45e38e596f.js" crossorigin="anonymous"></script>
+        <link href="https://fonts.googleapis.com/css2?family=DM+Sans&display=swap" rel="stylesheet" />
+    </head>
+    <body>
+        <!-- Logo FishEye -->
+        <header>
+            <a href="../index.html">
+                <div class="logofisheye">
+                    <img tabindex="0" src="../Logo.png" alt="Logo Fish Eye" />
+                </div>
+            </a>
+        </header>
+        <section id="infophotographe" class="infophotographe"></section>
+        <section id="flexmedias" class="flexartiste">
+        </section>
+
+        <section>
+            <div class="flexbouton">
+                <div class="boutonfixed">
+                    <button type="button">
+                        <span id="total_like"> </span>
+                        <i class="fas fa-heart"></i>
+                        <span>300€ /jour</span>
+                    </button>
+                </div>
+            </div>
+        </section>
+        <div id="lightbox_id" class="lightbox_modal">
+            <div id="lightbox_contents" class="lightbox_contents"></div>
+            <div class="lightbox_controls">
+                <div class="close_btn" id="js_close_lightbox">
+                    <i class="fas fa-times"></i>
+                </div>
+                <h2 id="titre_photo_modal"></h2>
+                <a id="js_prev_lightbox" class="previous">&lt;</a>
+                <a id="js_next_lightbox" class="next">&gt;</a>
+            </div>
+        </div>
+        <script src="../photographe_JS/general.js"></script>
+        <script src="../photographe_JS/factory.js"></script>
+        <script src="../photographe_JS/like.js"></script>
+        <script src="../photographe_JS/form.js"></script>
+        <script src="../photographe_JS/order.js"></script>
+        <script src="../photographe_JS/lightbox.js"></script>
+    </body>
+</html>

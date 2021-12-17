@@ -1,0 +1,194 @@
+
+   
+body {
+    width: 100%;
+    font-family: "DM Sans";
+    overflow-x: hidden;
+}
+
+
+header{
+    padding: 20px 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    h1{
+        margin: 0;
+    }
+}
+
+// Logo FishEye //
+
+.logofisheye {
+    img {
+        width: 200px;
+        height: 50px;
+        margin-left: 50px;
+    }
+}
+
+// Contenu #Fashion , #Architecture, #travel etc...
+
+.contenumenu {
+
+    ul {
+     
+        .contenu {
+            display: inline-block;
+            border-radius: 11px;
+            border: 0.5px solid #c4c4c4;
+            text-align: center;
+            line-height: 25px;
+            margin-left: 10px;
+
+            a {
+                color: #901c1c;
+                text-decoration: none;
+            }
+        }
+
+}
+
+}
+
+// Titre Nos Photographes //
+
+.titrephoto {
+    color: #901c1c;
+}
+
+// Informations sur les photographes  //
+
+.flexphotographe {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px 0;
+
+    // Photographe //
+
+    .profilphotographe {
+        display: flex;
+        width: 30.33%;
+        flex-direction: column;
+        text-align: center;
+        padding: 15px 0;
+        margin: auto;
+        display: inline-flex;
+
+       
+   
+        
+        a{ 
+            text-decoration: none;
+            
+            .nomphotographe {
+
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            
+                img {
+                  
+                    width: 250px;
+                    height: 250px;
+                    object-fit: cover;
+                    border-radius: 50%;
+                 
+                }
+                h2 {
+                    font-size: 36px;
+                    color: #d3573ccc;
+                    margin-bottom: 8px;
+                }
+
+                
+                
+            }
+        }
+
+        .descriptionphotographe {
+            h3 {
+                font-size: 14px;
+                color: #901c1c;
+                margin: 0;
+                
+            }
+            p {
+                
+                font-size: 12px;
+                margin: 0;
+                margin: 5px;
+            }
+
+            span {
+                color: #c4c4c4;
+                font-size: 12px;
+                display: inline-block;
+                margin: 5px;
+                
+            }
+        }
+
+        ul {
+            display: flex;
+            justify-content: center;
+            padding: 0;
+            margin: 0;
+            margin:8px;
+            li {
+                margin: 0 5px;
+                cursor: pointer;
+                padding: 3px;
+                list-style-type: none;
+                text-align: center;
+                font-size: 14px;
+                height: 18px;
+                border-radius: 11px;
+                border: 1.5px solid #c4c4c4;
+                color: #901c1c;
+            }
+
+          
+        }
+    }
+}
+
+@media screen and (max-width:576px){
+
+ header{
+     display: flex;
+     flex-wrap: wrap;
+
+     .logofisheye{
+
+        img{
+
+            margin: 0;
+        }
+
+     }
+
+     .contenumenu{
+         ul{
+            padding:0;
+           li{
+               margin: 3px 0;
+           }
+         }
+     }
+
+.titrephoto{
+    font-size: 25px;
+    padding: 0;
+    margin: 20px 0;
+}
+   
+ }
+   
+
+    .flexphotographe{
+        .profilphotographe{
+            width: 100%;
+        }
+    }
+}

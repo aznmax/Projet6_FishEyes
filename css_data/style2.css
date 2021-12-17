@@ -1,0 +1,381 @@
+body {
+  font-family: "DM Sans";
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+header a .logofisheye img {
+  width: 200px;
+  height: 50px;
+  margin: 30px 50px;
+}
+header img {
+  width: 250px;
+  height: 250px;
+}
+
+.infophotographe {
+  background: #fafafa;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.infophotographe .descriptionphotographe {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 40px 80px;
+}
+.infophotographe .descriptionphotographe .headerphotographe {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+.infophotographe .descriptionphotographe .headerphotographe button {
+  width: 120px;
+  height: 50px;
+  background: #901c1c;
+  color: #ffffff;
+  border-radius: 11px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  margin-left: 60px;
+}
+.infophotographe .descriptionphotographe form {
+  position: relative;
+}
+.infophotographe .descriptionphotographe form .nom_artiste {
+  font-size: 45px;
+  text-align: left;
+  margin-left: 10px;
+  background: #0000;
+}
+.infophotographe .descriptionphotographe form .nom_artiste i {
+  cursor: pointer;
+  color: white;
+  position: absolute;
+  top: 3px;
+  right: 30px;
+}
+.infophotographe .descriptionphotographe form .form_content #formerror {
+  font-size: 21px;
+  color: black;
+  display: none;
+}
+.infophotographe .descriptionphotographe form .form_content #formerror2 {
+  display: none;
+  font-size: 20px;
+  color: black;
+  display: none;
+}
+.infophotographe .descriptionphotographe form label {
+  display: block;
+  text-align: left;
+  font-size: 25px;
+  margin: 5px 15px;
+  padding: 0;
+  color: #312e2e;
+}
+.infophotographe .descriptionphotographe form input {
+  width: 92%;
+  height: 25px;
+  margin-top: 15px;
+}
+.infophotographe .descriptionphotographe form .msg_input {
+  text-align: left;
+  padding-top: 10px;
+  font-size: 25px;
+  color: #312e2e;
+}
+.infophotographe .descriptionphotographe form textarea {
+  width: 95%;
+  height: 100px;
+  margin-top: 5px;
+  resize: none;
+}
+.infophotographe .descriptionphotographe form .bouton_formulaire {
+  width: 120px;
+  height: 50px;
+  background: #901c1c;
+  color: #ffffff;
+  border-radius: 11px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  margin-top: 30px;
+}
+.infophotographe .descriptionphotographe .bg-modal {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+.infophotographe .descriptionphotographe .modal-contents {
+  background-color: #db8876;
+  width: 500px;
+  text-align: center;
+  padding: 20px;
+  position: relative;
+  border-radius: 4px;
+}
+.infophotographe .descriptionphotographe input {
+  margin: 15px auto;
+  display: block;
+  width: 50%;
+  padding: 8px;
+  border: 1px solid gray;
+}
+.infophotographe h2 {
+  margin: 0;
+  margin: 2px;
+  color: #d3573ccc;
+  font-size: 50px;
+}
+.infophotographe h3 {
+  margin: 12px 12px;
+}
+.infophotographe p {
+  margin: 3px 8px;
+}
+.infophotographe .tag ul {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0;
+  padding: 0;
+}
+.infophotographe .tag li {
+  padding: 2px 6px;
+  margin: 15px 2px;
+  list-style-type: none;
+  height: 20px;
+  border: 1px solid #c4c4c4;
+  border-radius: 11px;
+  color: #901c1c;
+  text-align: center;
+}
+.infophotographe .selectbox label {
+  font-size: 15px;
+  color: #000;
+}
+.infophotographe .selectbox #selectorder {
+  margin: 55px 10px;
+  width: 120px;
+  height: 50px;
+  background: #901c1c;
+  color: #ffffff;
+  border-radius: 11px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  padding-left: 12px;
+}
+
+.lightbox_modal {
+  position: fixed;
+  height: 100vh;
+  top: 0;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.5);
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: none;
+}
+.lightbox_modal .lightbox_contents {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+.lightbox_modal .lightbox_contents img,
+.lightbox_modal .lightbox_contents video {
+  height: 600px;
+  display: none;
+  position: absolute;
+}
+.lightbox_modal .lightbox_controls {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.lightbox_modal .lightbox_controls .close_btn {
+  font-size: 70px;
+  position: absolute;
+  bottom: 0px;
+  top: 30px;
+  color: #901c1c;
+  right: 50px;
+  cursor: pointer;
+}
+.lightbox_modal .lightbox_controls .previous {
+  font-size: 150px;
+  position: absolute;
+  color: #901c1c;
+  left: 50px;
+  cursor: pointer;
+}
+.lightbox_modal .lightbox_controls .next {
+  font-size: 150px;
+  position: absolute;
+  color: #901c1c;
+  right: 50px;
+  cursor: pointer;
+}
+
+.clichephotographe {
+  width: 20%;
+}
+.clichephotographe img {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.flexartiste {
+  display: flex;
+  flex-wrap: wrap;
+}
+.flexartiste .mediaartiste {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 33.33%;
+}
+.flexartiste .mediaartiste img {
+  margin-top: 80px;
+  width: 350px;
+  object-fit: cover;
+  height: 350px;
+  border-radius: 11px;
+}
+.flexartiste .mediaartiste .flexdescription {
+  display: flex;
+  flex-direction: column;
+}
+.flexartiste .mediaartiste .flexdescription .artiste {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.flexartiste .mediaartiste .flexdescription .artiste p {
+  display: inline-block;
+  font-weight: bold;
+  font-size: 22px;
+  color: #901c1c;
+}
+.flexartiste .mediaartiste .flexdescription .artiste p:nth-child(3) {
+  padding-right: 30px;
+}
+.flexartiste .mediaartiste .flexdescription .artiste span {
+  font-weight: bold;
+  display: inline-block;
+  font-size: 22px;
+  color: #901c1c;
+  margin-left: auto;
+  padding-right: 7px;
+}
+.flexartiste .mediaartiste .flexdescription .artiste i {
+  font-size: 25px;
+  color: #901c1c;
+}
+.flexartiste .mediaartiste video {
+  margin-top: 80px;
+  width: 350px;
+  object-fit: cover;
+  height: 350px;
+  border-radius: 11px;
+}
+
+section .flexbouton .boutonfixed button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  outline: none;
+  font-size: 18px;
+  cursor: pointer;
+  border: none;
+  position: fixed;
+  bottom: 0;
+  right: 40px;
+  width: 270px;
+  height: 50px;
+  border-radius: 5px;
+  background: #db8876;
+  padding-left: 20px;
+}
+section .flexbouton .boutonfixed #total_like {
+  margin-left: 0px;
+}
+section .flexbouton .boutonfixed i {
+  margin: 0;
+  margin-right: auto;
+  margin-left: 5px;
+}
+section .flexbouton .boutonfixed span {
+  padding-right: 0px;
+}
+
+@media screen and (max-width: 576px) {
+  header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .infophotographe {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .infophotographe .descriptionphotographe {
+    padding: 0 30px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .infophotographe .descriptionphotographe h2 {
+    font-size: 25px;
+    margin: 0px 60px;
+  }
+  .infophotographe .descriptionphotographe h3 {
+    margin: 10px 70px;
+    color: #901c1c;
+  }
+  .infophotographe .descriptionphotographe .headerphotographe {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .infophotographe .descriptionphotographe .headerphotographe button {
+    margin: 20px;
+  }
+  .infophotographe .clichephotographe {
+    margin-left: 60px;
+  }
+  .infophotographe .clichephotographe .artiste {
+    margin-top: 30px;
+  }
+
+  .flexartiste .mediaartiste {
+    width: 100%;
+  }
+
+  section .flexbouton .boutonfixed button {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=style2.css.map */

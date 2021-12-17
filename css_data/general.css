@@ -1,0 +1,174 @@
+body {
+  width: 100%;
+  font-family: "DM Sans";
+  overflow-x: hidden;
+}
+
+header {
+  padding: 20px 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+header h1 {
+  margin: 0;
+}
+
+.logofisheye img {
+  width: 200px;
+  height: 50px;
+  margin-left: 50px;
+}
+
+.contenumenu ul .contenu {
+  display: inline-block;
+  border-radius: 11px;
+  border: 0.5px solid #c4c4c4;
+  text-align: center;
+  line-height: 25px;
+  margin-left: 10px;
+}
+
+.contenumenu ul .contenu a {
+  color: #901c1c;
+  text-decoration: none;
+}
+
+.titrephoto {
+  color: #901c1c;
+}
+
+.flexphotographe {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 50px 0;
+}
+
+.flexphotographe .profilphotographe {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 30.33%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  padding: 15px 0;
+  margin: auto;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+.flexphotographe .profilphotographe a {
+  text-decoration: none;
+}
+
+.flexphotographe .profilphotographe a .nomphotographe {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.flexphotographe .profilphotographe a .nomphotographe img {
+  width: 250px;
+  height: 250px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 50%;
+}
+
+.flexphotographe .profilphotographe a .nomphotographe h2 {
+  font-size: 36px;
+  color: #d3573ccc;
+  margin-bottom: 8px;
+}
+
+.flexphotographe .profilphotographe .descriptionphotographe h3 {
+  font-size: 14px;
+  color: #901c1c;
+  margin: 0;
+}
+
+.flexphotographe .profilphotographe .descriptionphotographe p {
+  font-size: 12px;
+  margin: 0;
+  margin: 5px;
+}
+
+.flexphotographe .profilphotographe .descriptionphotographe span {
+  color: #c4c4c4;
+  font-size: 12px;
+  display: inline-block;
+  margin: 5px;
+}
+
+.flexphotographe .profilphotographe ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 0;
+  margin: 0;
+  margin: 8px;
+}
+
+.flexphotographe .profilphotographe ul li {
+  margin: 0 5px;
+  cursor: pointer;
+  padding: 3px;
+  list-style-type: none;
+  text-align: center;
+  font-size: 14px;
+  height: 18px;
+  border-radius: 11px;
+  border: 1.5px solid #c4c4c4;
+  color: #901c1c;
+}
+
+@media screen and (max-width: 576px) {
+  header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  header .logofisheye img {
+    margin: 0;
+  }
+  header .contenumenu ul {
+    padding: 0;
+  }
+  header .contenumenu ul li {
+    margin: 3px 0;
+  }
+  header .titrephoto {
+    font-size: 25px;
+    padding: 0;
+    margin: 20px 0;
+  }
+  .flexphotographe .profilphotographe {
+    width: 100%;
+  }
+}
+/*# sourceMappingURL=general.css.map */
