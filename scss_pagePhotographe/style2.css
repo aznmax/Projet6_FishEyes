@@ -313,8 +313,6 @@ header img {
 
 .lightbox_modal .lightbox_controls .close_btn .opacity_zero {
   opacity: 0;
-  display: block;
-  text-align: left;
 }
 
 .lightbox_modal .lightbox_controls .previous {
