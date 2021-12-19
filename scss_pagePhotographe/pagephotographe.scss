@@ -248,6 +248,7 @@ header {
             height: 600px;
             display: none;
             position: absolute;
+            z-index: 2;
         }
     }
     .lightbox_controls {
@@ -266,6 +267,9 @@ header {
             color: #901c1c;
             right: 50px;
             cursor: pointer;
+            .opacity_zero{
+                opacity: 0;  
+            }
         }
         .previous {
             font-size: 150px;
@@ -273,6 +277,9 @@ header {
             color: #901c1c;
             left: 50px;
             cursor: pointer;
+            .opacity_zero{
+                opacity: 0;
+            }
         }
 
         .next {
@@ -281,8 +288,12 @@ header {
             color: #901c1c;
             right: 50px;
             cursor: pointer;
-        }
+            .opacity_zero{
+                opacity: 0;
+            }
+        }    
     }
+    
 }
 
 // Bouton Contacter-Moi //

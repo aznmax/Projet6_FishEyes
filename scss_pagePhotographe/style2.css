@@ -282,6 +282,7 @@ header img {
   height: 600px;
   display: none;
   position: absolute;
+  z-index: 2;
 }
 
 .lightbox_modal .lightbox_controls {
@@ -310,6 +311,12 @@ header img {
   cursor: pointer;
 }
 
+.lightbox_modal .lightbox_controls .close_btn .opacity_zero {
+  opacity: 0;
+  display: block;
+  text-align: left;
+}
+
 .lightbox_modal .lightbox_controls .previous {
   font-size: 150px;
   position: absolute;
@@ -318,12 +325,20 @@ header img {
   cursor: pointer;
 }
 
+.lightbox_modal .lightbox_controls .previous .opacity_zero {
+  opacity: 0;
+}
+
 .lightbox_modal .lightbox_controls .next {
   font-size: 150px;
   position: absolute;
   color: #901c1c;
   right: 50px;
   cursor: pointer;
+}
+
+.lightbox_modal .lightbox_controls .next .opacity_zero {
+  opacity: 0;
 }
 
 .clichephotographe {

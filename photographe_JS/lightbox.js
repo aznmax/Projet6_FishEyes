@@ -10,7 +10,10 @@ let current_item_lightbox;
 
 close_lightbox.addEventListener("click", function () {
     closeLightBox(modal);
+    
+    
 });
+
 
 next_lightbox.addEventListener("click", function () {
     nextLightboxItem(current_item_lightbox);
@@ -49,6 +52,7 @@ function previousLightboxItem(current_img) {
         // On défini l'image suivante comme étant l'image actuelle
         current_item_lightbox = current_img.previousSibling;
         title = current_img.previousSibling.dataset.title;
+        
     } else {
         lightbox_content.lastElementChild.style.display = "block";
         current_item_lightbox = lightbox_content.lastElementChild;
