@@ -497,6 +497,85 @@ section .flexbouton .boutonfixed span {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .infophotographe .descriptionphotographe {
+    padding: 0 30px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .infophotographe .descriptionphotographe h2 {
+    font-size: 25px;
+    margin: 0px 60px;
+  }
+  .infophotographe .descriptionphotographe h3 {
+    margin: 10px 70px;
+    color: #901c1c;
+  }
+  .infophotographe .descriptionphotographe .headerphotographe {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .infophotographe .descriptionphotographe .headerphotographe button {
+    margin: 20px;
+  }
+  .infophotographe .clichephotographe {
+    margin-left: 60px;
+  }
+  .infophotographe .clichephotographe .artiste {
+    margin-top: 30px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .flexartiste .mediaartiste {
+    width: 100%;
+  }
+  section .flexbouton .boutonfixed button {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 546px) {
+  header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .infophotographe {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
   }
