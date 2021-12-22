@@ -570,6 +570,13 @@ section .flexbouton .boutonfixed span {
   }
 }
 
+@media screen and (max-width: 551px) {
+  .clichephotographe .artiste img {
+    width: 250px;
+    height: 250px;
+  }
+}
+
 @media screen and (max-width: 546px) {
   header {
     display: -webkit-box;
