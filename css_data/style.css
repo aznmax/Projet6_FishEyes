@@ -28,6 +28,13 @@ header h1 {
 
 .contenumenu ul .contenu {
   display: inline-block;
+  list-style: none;
+}
+
+.contenumenu ul .contenu a {
+  color: #901c1c;
+  text-decoration: none;
+  display: inline-block;
   border-radius: 11px;
   border: 0.5px solid #c4c4c4;
   text-align: center;
@@ -35,10 +42,12 @@ header h1 {
   margin-left: 10px;
 }
 
-.contenumenu ul .contenu a {
-  color: #901c1c;
-  text-decoration: none;
+.contenumenu ul .contenu a.active{
+  background: #901c1c;
+  color: white;
 }
+
+
 
 .titrephoto {
   color: #901c1c;

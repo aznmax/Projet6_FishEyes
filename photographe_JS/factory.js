@@ -17,6 +17,7 @@ function factory(medias, artiste) {
 
         const mediaartiste = div.cloneNode();
         mediaartiste.classList = "mediaartiste";
+        console.log(mediaartiste);
         const flexdescription = div.cloneNode();
         flexdescription.classList = "flexdescription";
         const textemedia = div.cloneNode();

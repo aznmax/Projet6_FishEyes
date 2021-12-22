@@ -1,40 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head> 
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>FishEye</title>
-    <link rel="stylesheet" href="./css_data/style.css" />
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans&display=swap" rel="stylesheet"/>
-    
-  </head>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>FishEye</title>
+        <link rel="stylesheet" href="./css_data/style.css" />
+        <link href="https://fonts.googleapis.com/css2?family=DM+Sans&display=swap" rel="stylesheet" />
+    </head>
 
-  <body>
-    <!-- Header & Menu and Logo  -->
-    <header>
-       <a href="http://127.0.0.1:5501/index.html">
-        <div tabindex="-1" class="logofisheye">
-          <img src="Logo.png" alt="Logo Fish Eye" />
-        </div>
-      </a>
-      <nav class="contenumenu">
-        <ul>
-          <li class="contenu"><a href="#">#Portrait</a></li>
-          <li class="contenu"><a href="#">#Art</a></li>
-          <li class="contenu"><a href="#">#Fashion</a></li>
-          <li class="contenu"><a href="#">#Architecture</a></li>
-          <li class="contenu"><a href="#">#Travel</a></li>
-          <li class="contenu"><a href="#">#Sport</a></li>
-          <li class="contenu"><a href="#">#Animal</a></li>
-          <li class="contenu"><a href="#">#Events</a></li>
-        </ul>
-      </nav>
-      <h1 class="titrephoto">Nos photographes</h1>
-    </header>
+    <body>
+        <!-- Header & Menu and Logo  -->
+        <header>
+            <div tabindex="0" class="logofisheye">
+                <img src="Logo.png" alt="Logo Fish Eye" />
+            </div>
+            <nav class="contenumenu">
+                <ul>
+                    <li class="contenu"><a id="portrait" class="js_filter_tag" href="#">#Portrait</a></li>
+                    <li class="contenu"><a id="art" class="js_filter_tag" href="#">#Art</a></li>
+                    <li class="contenu"><a id="fashion" class="js_filter_tag" href="#">#Fashion</a></li>
+                    <li class="contenu"><a id="architecture" class="js_filter_tag" href="#">#Architecture</a></li>
+                    <li class="contenu"><a id="travel" class="js_filter_tag" href="#">#Travel</a></li>
+                    <li class="contenu"><a id="sport" class="js_filter_tag" href="#">#Sport</a></li>
+                    <li class="contenu"><a id="animals" class="js_filter_tag" href="#">#Animals</a></li>
+                    <li class="contenu"><a id="events" class="js_filter_tag" href="#">#Events</a></li>
+                </ul>
+            </nav>
+            <h1 class="titrephoto">Nos photographes</h1>
+        </header>
 
-    <section id="flexphotographe" class="flexphotographe"></section>
-    <script src="./JS_accueil/script.js"></script>
-    <script src="./JS_accueil/filter_tags.js"></script>
-  </body>
+        <section id="flexphotographe" class="flexphotographe"></section>
+        <script src="./JS_accueil/script.js"></script>
+        <script src="./JS_accueil/filter_tags.js"></script>
+    </body>
 </html>
