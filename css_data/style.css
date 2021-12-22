@@ -62,6 +62,10 @@ header h1 {
   padding: 50px 0;
 }
 
+.flexphotographe h3{
+  display: none;
+}
+
 .flexphotographe .profilphotographe {
   display: -webkit-box;
   display: -ms-flexbox;

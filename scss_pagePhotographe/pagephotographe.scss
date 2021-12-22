@@ -32,6 +32,10 @@ header {
     width: 100%;
     justify-content: space-between;
 
+    .titresection1{
+        display: none;
+     }
+
     .descriptionphotographe {
         display: flex;
         flex-direction: column;
@@ -219,6 +223,7 @@ header {
     }
 }
 
+
 // Previous //
 .lightbox_modal {
     position: fixed;
@@ -313,6 +318,9 @@ header {
 .flexartiste {
     display: flex;
     flex-wrap: wrap;
+    h3{
+        display: none;
+    }
 
     .mediaartiste {
         display: flex;
@@ -375,6 +383,9 @@ header {
 }
 
 section {
+    h3{
+        display: none;
+    }
     .flexbouton {
         .boutonfixed {
             button {

@@ -33,6 +33,10 @@ header img {
           justify-content: space-between;
 }
 
+.infophotographe .titresection1 {
+  display: none;
+}
+
 .infophotographe .descriptionphotographe {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -359,6 +363,10 @@ header img {
       flex-wrap: wrap;
 }
 
+.flexartiste h3 {
+  display: none;
+}
+
 .flexartiste .mediaartiste {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -439,6 +447,10 @@ header img {
      object-fit: cover;
   height: 350px;
   border-radius: 11px;
+}
+
+section h3 {
+  display: none;
 }
 
 section .flexbouton .boutonfixed button {
