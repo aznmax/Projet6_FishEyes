@@ -58,7 +58,6 @@ buttons.forEach((button)=> button.addEventListener("click", showTag));
 
 function showTag(e){
     buttons.forEach((button)=>{
-       
         console.log(button);   
         button.classList.remove("active");
     })
