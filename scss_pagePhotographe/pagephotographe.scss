@@ -463,12 +463,15 @@ section {
         }
 
         .clichephotographe {
-            margin-left: 60px;
+            margin-left:80px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
             .artiste {
                 margin-top: 30px;
-                display: flex;
-                justify-content: center;
-                align-items: center;
+                img{
+                    margin-right: 50px;
+                }
                 
             }
         }
@@ -491,18 +494,23 @@ section {
     }
 }
 
-@media screen and(max-width:551px){
+@media screen and (max-width:573px){
     .clichephotographe{
+        display: flex;
+        justify-content: center;
+        margin-right: 50px;
         .artiste{
-            img{
+                
                 width: 250px;
                 height: 250px;
-            }
+            
         }
     }
 }
 
-@media screen and (max-width: 546px){
+
+
+@media screen and (max-width:546px){
 
     header {
         display: flex;
