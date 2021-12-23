@@ -14,7 +14,6 @@ function factory(medias, artiste) {
 
     medias.forEach((media) => {
         // result += "<div>";
-
         const mediaartiste = div.cloneNode();
         mediaartiste.classList = "mediaartiste";
         console.log(mediaartiste);
@@ -52,11 +51,7 @@ function factory(medias, artiste) {
         textemedia.appendChild(nomphoto);
         textemedia.appendChild(likes);
         textemedia.appendChild(coeur);
-        const hearts = document.querySelectorAll(".fa-heart");
-        // console.log(hearts);
-        hearts.forEach(function (heart) {
-            heart.addEventListener("click", handleHeart);
-        });
+       
         result = mediaartiste;
         section_medias.appendChild(result);
 
@@ -85,6 +80,11 @@ function factory(medias, artiste) {
             // item_lightbox.appendChild(truc);
             lightbox_content.appendChild(item_lightbox);
         }
+        const hearts = document.querySelectorAll(".fa-heart");
+        // console.log(hearts);
+        hearts.forEach(function (heart) {
+            heart.addEventListener("click", handleHeart);
+        });
     });
     return result;
 }
