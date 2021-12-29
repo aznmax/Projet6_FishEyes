@@ -8,7 +8,8 @@
       "tags": ["portrait", "events", "travel", "animals"],
       "tagline": "Voir le beau dans le quotidien",
       "price": 400,
-      "portrait": "MimiKeel.jpg"
+      "portrait": "MimiKeel.jpg",
+      "alt": "Voici le photographe Mimi Keel"
     },
     {
       "name": "Ellie-Rose Wilkens",
@@ -21,6 +22,7 @@
       "portrait": "EllieRoseWilkens.jpg",
       "alt" : "Voici le photographe EllieRoseWilkens",
       "linkname": "Ellie-Rose "
+      
     },
     {
       "name": "Tracy Galindo",
@@ -30,7 +32,8 @@
       "tags": ["art", "fashion", "events"],
       "tagline": "Photographe freelance",
       "price": 500,
-      "portrait": "TracyGalindo.jpg"
+      "portrait": "TracyGalindo.jpg",
+      "alt" : "Voici le photographe Tracy Galindo"
     },
     {
       "name": "Nabeel Bradford",
@@ -40,7 +43,9 @@
       "tags": ["travel", "portrait"],
       "tagline": "Toujours aller de l'avant",
       "price": 350,
-      "portrait": "NabeelBradford.jpg"
+      "portrait": "NabeelBradford.jpg",
+      "alt" : "Voici le photographe Nabeel Bradford"
+
     },
     {
       "name": "Rhode Dubois",
@@ -50,7 +55,8 @@
       "tags": ["sport", "fashion", "events", "animals"],
       "tagline": "Je crée des souvenirs",
       "price": 275,
-      "portrait": "RhodeDubois.jpg"
+      "portrait": "RhodeDubois.jpg",
+      "alt" : "Voici le photographe Rhode Dubois"
     },
     {
       "name": "Marcel Nikolic",

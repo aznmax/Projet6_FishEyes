@@ -14,7 +14,7 @@ function fetchData() {
                   <a href="./Photographe/page_photographe.html?id=${user.id}">
                       <div  class="nomphotographe">
                           <img  src="./SamplePhotos/PhotographersPhotos/${user.portrait} "
-                          alt= "Voici le portrait de ${user.name}">
+                          alt= "${user.alt}">
                           <h2>${user.name}</h2>
                       </div>
                   </a>
@@ -57,14 +57,20 @@ const buttons = document.querySelectorAll(".js_filter_tag");
 buttons.forEach((button)=> button.addEventListener("click", showTag));
 
 function showTag(e){
+    const boxes = document.querySelectorAll(".profilphotographe");
+    if(e.target.classList.contains("active")){
+        e.target.classList.remove("active")
+        boxes.forEach((box)=>{
+           box.style.removeProperty("display");              
+        })
+        return;
+    }
+
     buttons.forEach((button)=>{
-        console.log(button);   
+           
         button.classList.remove("active");
     })
     e.target.classList.add("active");
-    const boxes = document.querySelectorAll(".profilphotographe");
-    console.log(boxes);
-    console.log(`button ${e.target.id} cliqued`);
     const id = e.target.getAttribute("id");
     boxes.forEach((box)=>{
         const tags = box.getAttribute("data-tags").split(",");
